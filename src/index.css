@@ -1,0 +1,26 @@
+@import-normalize;
+
+@font-face {
+    font-family: 'Suprema Regular';
+    src: local('SupremaRegular'), url(/src/fonts/SupremaRegular.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: 'Suprema SemiBold';
+    src: local('SupremaSemiBold'), url(/src/fonts/SupremaSemiBold.ttf) format('ttf');
+}
+
+* {
+    margin: 0;
+    font-family: 'Suprema Regular';
+    color: #404040;
+}
+
+body {
+    background: linear-gradient(121.32deg, #FFFFFF 10.96%, #FFFFFF 72%, #FFFFFF 99.98%);
+    user-select: none;
+}
+
+img {
+    pointer-events: none;
+}
