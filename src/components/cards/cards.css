@@ -4,7 +4,7 @@
     box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
     border-radius: 28px;
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
-    margin: 2vw
+    margin: 2vw;
 }
 
 .cards-title {
@@ -17,7 +17,30 @@
     transform: rotate(180deg);
 }
 
-.cards-inner__kind {
+.cards-inner {
+    display: flex;
+}
+
+.cards-inner__main-kind {
     display: flex;
     align-items: center;
+}
+
+.cards-inner__info-cash {
+    border-left-color: #E8E8E8;
+    border-left-width: 0.2em;
+    border-left-style: solid;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-inner__info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
 }

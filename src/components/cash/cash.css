@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.cash-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cash-inner:not(:first-child) {
+    margin-top: 2em;
+}
+
+.cash {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.description {
+    color: #AEAEAE;
+    margin-top: 0.5em;
+}
